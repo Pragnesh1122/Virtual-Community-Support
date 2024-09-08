@@ -1,0 +1,8 @@
+<div *ngFor="let user of users; let i = index">
+    <h3>{{ user.fullName }}</h3>
+    <p>{{ user.address }}</p>
+    <input type="checkbox" [checked]="user.active" (change)="toggleUser(i)"> Active
+    <button (click)="deleteUser(i)">Delete</button>
+    <hr>
+  </div>
+  

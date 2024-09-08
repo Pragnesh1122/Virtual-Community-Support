@@ -1,0 +1,26 @@
+.container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .jumbotron {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+  
+  .card {
+    margin-top: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
